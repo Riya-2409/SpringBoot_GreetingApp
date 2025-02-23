@@ -8,7 +8,7 @@ public class GreetingService {
         return "Hello World";
     }*/
 
-    public String getGreetingMessage(String firstName, String lastName) {
+    /*public String getGreetingMessage(String firstName, String lastName) {
         if (firstName != null && lastName != null) {
             return "Hello " + firstName + " " + lastName;
         } else if (firstName != null) {
@@ -18,6 +18,7 @@ public class GreetingService {
         } else {
             return "Hello World";
         }
-    }
+    }*/
+
 
 }
