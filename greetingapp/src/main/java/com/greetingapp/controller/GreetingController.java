@@ -70,4 +70,11 @@ public class GreetingController {
         return greetingService.getGreetingById(id)
                 .orElseThrow(() -> new RuntimeException("Greeting not found with ID: " + id));
     }
+
+    //UC-06 Ability for the Greeti App to List all the Greeting Messages in the Repository
+    @GetMapping("/allgreetings")
+    public List<Greeting> getAllGreetings() {
+        return greetingService.getAllGreetings();
+    }
+
 }
